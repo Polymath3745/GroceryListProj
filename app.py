@@ -8,7 +8,7 @@ def main():
     try:
         choice  = input("Enter 'snap' to take picture of grocery list: ")
         if (choice == 'snap'):
-            cam.take_pic()
+            #cam.take_pic()
             print("Extracted text from picture :\n")
             interpret.extract()
         else:
